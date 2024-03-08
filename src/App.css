@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
+/* ==================    This is code follow class Component ================ */
+
+/* .container {
+  width: 1000px;
+}
+.container .container-input {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.nameInput input[type="text"] {
+  margin-left: 8px;
+  width: 153px;
+}
+.phoneInput input[type="number"] {
+  width: 153px;
+  margin-left: 5px;
+}
+.emailInput input[type="email"] {
+  width: 154px;
+  margin-left: 11px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container .container-table {
+  width: 50%;
+  box-sizing: border-box;
+  border-collapse: collapse;
+  margin-left: 20px;
+}
+tr,th,td {
+  border: 1px solid #aaaa;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container-table .table-item {
+  background-color: white;
+  border: 1px solid #aaaa;
+ 
+
+}
+.container-table .table-item:hover {
+  background-color: #e7dedeaa;
+  
+}
+.container-table:hover .table-item {
+  border: 1px solid red;
+
+}
+ */
+
+
+
+/* ==================    This is code follow REACT HOOK (FUNCTION COMPONENT) ================ */ 
+/* .container {
+  width: 1000px;
+}
+.container-form {
+  margin-left: 20px;
+
+}
+input[type='text'] {
+  margin-left: 20px;
+  width: 200px;
+  height: 25px;
+
+}
+input[type='number'] {
+  margin-left: 17px;
+  width: 200px;
+  height: 25px;
+
+}
+input[type='email'] {
+  margin-left: 23px;
+  width: 200px;
+  height: 25px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container-table {
+  margin-left:20px;
+  margin-top: 20px;
+  width: 50%;
+  box-sizing: border-box;
+  border-collapse: collapse;
+}
+
+tr,th,td {
+  border: 1px solid #aaaa;
+} */
+
+/* ==================================================     SPACE-X        ================================== */
+.container {
+  width: 1000px;
+}
+.container-form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 20px;
+ 
 }
-
-.App-link {
-  color: #61dafb;
+.sumitForm {
+  width: 60px;
+  height: 30px;
+  border: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sumitForm:hover{
+  background: greenyellow;
+}
+.container-table {
+  width: 55%;
+  box-sizing: border-box;
+  border-collapse: collapse;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.container-table-title {
+  width: 100%;
+}
+tr,th,td {
+  border: 1px solid #aaaa;
 }
